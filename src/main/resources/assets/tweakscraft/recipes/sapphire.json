@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "tweakscraft:block_sapphire"
+    }
+  ],
+  "result": {
+    "item": "tweakscraft:sapphire",
+    "count": 9
+  }
+}

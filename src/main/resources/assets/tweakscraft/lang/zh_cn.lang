@@ -1,0 +1,31 @@
+# By: Romonov
+
+# Items
+item.ruby.name=红宝石
+item.sapphire.name=蓝宝石
+
+item.ice_charge.name=寒冰弹
+item.freeze_rod.name=寒冰棒
+item.freeze_powder.name=寒冰粉
+
+item.ruby_pickaxe.name=红宝石镐
+item.ruby_axe.name=红宝石斧
+item.ruby_hoe.name=红宝石锄
+item.ruby_shovel.name=红宝石铲
+item.ruby_sword.name=红宝石剑
+
+item.sapphire_pickaxe.name=蓝宝石镐
+item.sapphire_axe.name=蓝宝石斧
+item.sapphire_hoe.name=蓝宝石锄
+item.sapphire_shovel.name=蓝宝石铲
+item.sapphire_sword.name=蓝宝石剑
+
+# Blocks
+tile.block_ruby.name=红宝石块
+tile.ore_ruby.name=红宝石矿石
+
+tile.block_sapphire.name=蓝宝石块
+tile.ore_sapphire.name=蓝宝石矿石
+
+#Tabs
+itemGroup.tweakscraft=微调工艺

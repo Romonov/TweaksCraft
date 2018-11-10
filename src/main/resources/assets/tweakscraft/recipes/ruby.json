@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "tweakscraft:block_ruby"
+    }
+  ],
+  "result": {
+    "item": "tweakscraft:ruby",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tweakscraft:freeze_rod"
+    },
+  ],
+  "result": {
+    "item": "tweakscraft:freeze_powder",
+	"count": 3
+  }
+}

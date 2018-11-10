@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tweakscraft:ruby"
+    }
+  },
+  "result": {
+    "item": "tweakscraft:block_ruby"
+  }
+}

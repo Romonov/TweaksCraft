@@ -1,0 +1,20 @@
+# By: Romonov
+
+# Items
+item.ruby.name=Ruby
+
+item.ice_charge.name=Ice charge
+item.freeze_rod.name=Freeze rod
+item.freeze_powder.name=Freeze powder
+
+item.sapphire.name=Sapphire
+
+# Blocks
+tile.block_ruby.name=Ruby block
+tile.ore_ruby.name=Ruby ore block
+
+tile.block_sapphire.name=Sapphire block
+tile.ore_sapphire.name=Sapphire ore block
+
+#Tabs
+itemGroup.tweakscraft=TweaksCraft
