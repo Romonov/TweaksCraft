@@ -20,6 +20,7 @@ public class BlockLoader
     public static Block blockOreJade = new BlockOreJade().setUnlocalizedName("ore_jade");
     public static Block blockGlowingObsidian = new BlockGlowingObsidian().setUnlocalizedName("glowing_obsidian");
     public static Block blockCryingObsidian = new BlockCryingObsidian().setUnlocalizedName("crying_obsidian");
+    public static Block blockRose = new BlockRose().setUnlocalizedName("rose");
 
     public BlockLoader(FMLPreInitializationEvent event)
     {
@@ -31,6 +32,7 @@ public class BlockLoader
         register(blockOreJade, "ore_jade");
         register(blockGlowingObsidian, "glowing_obsidian");
         register(blockCryingObsidian, "crying_obsidian");
+        register(blockRose, "rose");
     }
 
     private static void register(Block block, String name)

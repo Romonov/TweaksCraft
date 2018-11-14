@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "item": "tweakscraft:freeze_rod"
-    },
+    }
   ],
   "result": {
     "item": "tweakscraft:freeze_powder",

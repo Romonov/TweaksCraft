@@ -4,6 +4,7 @@ import com.Romonov.mcmod.TweaksCraft.Block.BlockLoader;
 import com.Romonov.mcmod.TweaksCraft.Common.ConfigLoader;
 import com.Romonov.mcmod.TweaksCraft.Common.OreDictionaryLoader;
 import com.Romonov.mcmod.TweaksCraft.Crafting.RecipesLoader;
+import com.Romonov.mcmod.TweaksCraft.Crafting.SmeltingLoader;
 import com.Romonov.mcmod.TweaksCraft.Item.ItemLoader;
 import com.Romonov.mcmod.TweaksCraft.Crafting.RecipesRemover;
 import com.Romonov.mcmod.TweaksCraft.WorldGen.WorldGenLoader;
@@ -26,7 +27,7 @@ public class ProxyCommon {
         WorldGenLoader.init();
         RecipesRemover.RemoveRecipe();
         RecipesLoader.RecipesLoader();
-        ItemLoader.SmeltingRegister();
+        SmeltingLoader.SmeltingLoader();
     }
 
     public void postInit(FMLPostInitializationEvent event)

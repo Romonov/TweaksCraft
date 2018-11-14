@@ -8,6 +8,8 @@ item.ice_charge.name=寒冰弹
 item.freeze_rod.name=寒冰棒
 item.freeze_powder.name=寒冰粉
 
+item.iron_hook.name=铁钩
+
 item.ruby_pickaxe.name=红宝石镐
 item.ruby_axe.name=红宝石斧
 item.ruby_hoe.name=红宝石锄
@@ -26,6 +28,11 @@ tile.ore_ruby.name=红宝石矿石
 
 tile.block_sapphire.name=蓝宝石块
 tile.ore_sapphire.name=蓝宝石矿石
+
+tile.rose.name=玫瑰
+
+tile.crying_obsidian.name=哭泣的黑曜石
+tile.glowing_obsidian.name=发光的黑曜石
 
 #Tabs
 itemGroup.tweakscraft=微调工艺

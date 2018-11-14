@@ -49,10 +49,4 @@ public class ItemLoader
         TweaksCraft.instance.getLogger().info("[TweaksCraft]Item " + name + " registered!");
         registerModel(item);
     }
-
-    public static void SmeltingRegister()
-    {
-        GameRegistry.addSmelting(BlockLoader.blockOreRuby, new ItemStack(ItemLoader.ruby), 0.5F);
-        GameRegistry.addSmelting(BlockLoader.blockOreSapphire, new ItemStack(ItemLoader.sapphire), 0.5F);
-    }
 }
