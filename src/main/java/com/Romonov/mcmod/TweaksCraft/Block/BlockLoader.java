@@ -1,6 +1,8 @@
 package com.Romonov.mcmod.TweaksCraft.Block;
 
+import com.Romonov.mcmod.TweaksCraft.CreativeTab.CreativeTabsLoader;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockBush;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -12,15 +14,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockLoader
 {
-    public static Block blockRuby = new BlockRuby().setUnlocalizedName("block_ruby");
-    public static Block blockOreRuby = new BlockOreRuby().setUnlocalizedName("ore_ruby");
-    public static Block blockSapphire = new BlockSapphire().setUnlocalizedName("block_sapphire");
-    public static Block blockOreSapphire = new BlockOreSapphire().setUnlocalizedName("ore_sapphire");
-    public static Block blockJade = new BlockJade().setUnlocalizedName("block_jade");
-    public static Block blockOreJade = new BlockOreJade().setUnlocalizedName("ore_jade");
-    public static Block blockGlowingObsidian = new BlockGlowingObsidian().setUnlocalizedName("glowing_obsidian");
-    public static Block blockCryingObsidian = new BlockCryingObsidian().setUnlocalizedName("crying_obsidian");
-    public static Block blockRose = new BlockRose().setUnlocalizedName("rose");
+    public static Block blockRuby = new BlockRuby();
+    public static Block blockOreRuby = new BlockOreRuby();
+    public static Block blockSapphire = new BlockSapphire();
+    public static Block blockOreSapphire = new BlockOreSapphire();
+    public static Block blockJade = new BlockJade();
+    public static Block blockOreJade = new BlockOreJade();
+    public static Block blockGlowingObsidian = new BlockGlowingObsidian();
+    public static Block blockCryingObsidian = new BlockCryingObsidian();
+    public static BlockBush blockRose = (BlockBush) new BlockRose();
 
     public BlockLoader(FMLPreInitializationEvent event)
     {
@@ -38,6 +40,9 @@ public class BlockLoader
     private static void register(Block block, String name)
     {
         ForgeRegistries.BLOCKS.register(block.setRegistryName(name));
+        ForgeRegistries.BLOCKS.register(block.setUnlocalizedName(name));
+        ForgeRegistries.BLOCKS.register(block.setCreativeTab(CreativeTabsLoader.tabTweaksCraft));
+
         ForgeRegistries.ITEMS.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
         registerModel(block);
     }
