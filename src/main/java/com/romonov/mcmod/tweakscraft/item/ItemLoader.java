@@ -1,6 +1,6 @@
 package com.romonov.mcmod.tweakscraft.item;
 
-import com.Romonov.mcmod.TweaksCraft.TweaksCraft;
+import com.romonov.mcmod.tweakscraft.TweaksCraft;
 import net.minecraft.item.Item;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
