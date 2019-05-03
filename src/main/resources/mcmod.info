@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tweakscraft",
+  "name": "Tweaks Craft",
+  "description": "A little mod with some little ideas. ",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Romonov"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

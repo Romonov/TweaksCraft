@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:torch_wall",
+    "textures": {
+      "torch": "tweakscraft:animations/accelerate_torch"
+    },
+    "transform": "forge:default-item"
+  },
+  "variants": {
+    "facing": {
+      "up": {
+        "model": "minecraft:torch"
+      },
+      "north": { "y": 270},
+      "east": { "y": 0 },
+      "south": { "y": 90 },
+      "west": { "y": 180 }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# By: Romonov
+
+# Items
+item.ironHook.name=铁钩
+
+# Blocks
+tile.accelerate_torch.name=加速火把
+
+#Tabs
+itemGroup.tweakscraft=微调工艺
