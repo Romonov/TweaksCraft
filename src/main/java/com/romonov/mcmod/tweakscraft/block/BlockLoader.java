@@ -7,8 +7,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockLoader {
     public static Block ACCELERATE_TORCH = new BlockAccelerateTorch().setUnlocalizedName("accelerateTorch");
@@ -18,14 +16,16 @@ public class BlockLoader {
         register(ACCELERATE_TORCH, "accelerate_torch");
     }
 
+    public static void registerModel() {
+        registerModel(ACCELERATE_TORCH);
+    }
+
     private static void register(Block block, String name)
     {
         ForgeRegistries.BLOCKS.register(block.setRegistryName(name).setUnlocalizedName(name).setCreativeTab(CreativeTabLoader.TAB_TWEAKS_CRAFT));
         ForgeRegistries.ITEMS.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
-        registerModel(block);
     }
 
-    @SideOnly(Side.CLIENT)
     private static void registerModel(Block block)
     {
         ModelResourceLocation model = new ModelResourceLocation(block.getRegistryName(), "inventory");

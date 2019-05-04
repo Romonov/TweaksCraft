@@ -4,6 +4,7 @@ import com.romonov.mcmod.tweakscraft.tileEntity.TileEntityAccelerateTorch;
 import net.minecraft.block.BlockTorch;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
@@ -46,9 +47,9 @@ public class BlockAccelerateTorch extends BlockTorch implements ITileEntityProvi
             TileEntityAccelerateTorch accelerateTorch = (TileEntityAccelerateTorch) tileEntity;
             accelerateTorch.changeMode(player.isSneaking());
             if (player.isSneaking()) {
-                player.sendMessage(new TextComponentString("更改速度为" + accelerateTorch.getSpeedChanged()));
+                player.sendMessage(new TextComponentString(I18n.format("message.speed_changed") + accelerateTorch.getSpeedChanged()));
             } else {
-                player.sendMessage(new TextComponentString("更改模式为" + accelerateTorch.getModeChanged()));
+                player.sendMessage(new TextComponentString(I18n.format("message.mode_changed") + accelerateTorch.getModeChanged()));
             }
         }
         return false;

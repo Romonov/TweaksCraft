@@ -3,6 +3,7 @@ package com.romonov.mcmod.tweakscraft.tileEntity;
 import com.romonov.mcmod.tweakscraft.block.BlockAccelerateTorch;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -101,7 +102,7 @@ public class TileEntityAccelerateTorch extends TileEntity implements ITickable {
                 return "9x3x9";
             case Stopped:
             default:
-                return "停止";
+                return I18n.format("message.stopped");
         }
     }
 

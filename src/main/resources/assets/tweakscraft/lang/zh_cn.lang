@@ -8,3 +8,8 @@ tile.accelerate_torch.name=加速火把
 
 #Tabs
 itemGroup.tweakscraft=微调工艺
+
+#Messages
+message.speed_changed=速度更改为
+message.mode_changed=模式更改为
+message.stopped=停止
