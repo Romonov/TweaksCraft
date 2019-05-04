@@ -1,6 +1,6 @@
 {
-  "parent": "block/torch",
-  "textures": {
-    "torch": "tweakscraft:animations/accelerate_torch"
-  }
+    "parent": "block/torch",
+    "textures": {
+        "torch": "tweakscraft:animations/accelerate_torch"
+    }
 }

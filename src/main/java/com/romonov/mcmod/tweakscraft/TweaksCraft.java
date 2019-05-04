@@ -18,7 +18,7 @@ public class TweaksCraft
 {
     public static final String MODID = "tweakscraft";
     public static final String NAME = "Tweaks Craft";
-    public static final String VERSION = "1.0.1";
+    public static final String VERSION = "1.0.2";
 
     @Instance(TweaksCraft.MODID)
     public static TweaksCraft instance;

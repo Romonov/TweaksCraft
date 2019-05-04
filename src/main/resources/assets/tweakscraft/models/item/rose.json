@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "tweakscraft:items/iron_hook"
+        "layer0": "tweakscraft:blocks/rose"
     }
 }

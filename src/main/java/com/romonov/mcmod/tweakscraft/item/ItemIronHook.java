@@ -6,6 +6,5 @@ import net.minecraft.item.Item;
 public class ItemIronHook extends Item {
     public ItemIronHook(){
         super();
-        this.setCreativeTab(CreativeTabLoader.TAB_TWEAKS_CRAFT);
     }
 }

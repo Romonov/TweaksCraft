@@ -5,6 +5,7 @@ item.iron_hook.name=Iron hook
 
 # Blocks
 tile.accelerate_torch.name=Accelerate torch
+tile.rose.name=Rose
 
 #Tabs
 itemGroup.tweakscraft=Tweaks craft

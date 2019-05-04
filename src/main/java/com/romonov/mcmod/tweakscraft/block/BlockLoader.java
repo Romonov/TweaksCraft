@@ -9,15 +9,18 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class BlockLoader {
-    public static Block ACCELERATE_TORCH = new BlockAccelerateTorch().setUnlocalizedName("accelerateTorch");
+    public static Block ACCELERATE_TORCH = new BlockAccelerateTorch();
+    public static Block ROSE = new BlockRose();
 
     public BlockLoader()
     {
         register(ACCELERATE_TORCH, "accelerate_torch");
+        register(ROSE, "rose");
     }
 
     public static void registerModel() {
         registerModel(ACCELERATE_TORCH);
+        registerModel(ROSE);
     }
 
     private static void register(Block block, String name)

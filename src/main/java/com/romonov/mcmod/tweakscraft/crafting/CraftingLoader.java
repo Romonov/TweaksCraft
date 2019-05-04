@@ -1,5 +1,6 @@
 package com.romonov.mcmod.tweakscraft.crafting;
 
+import com.google.common.base.Predicate;
 import com.romonov.mcmod.tweakscraft.block.BlockLoader;
 import com.romonov.mcmod.tweakscraft.item.ItemLoader;
 import net.minecraft.init.Blocks;
@@ -7,6 +8,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -52,6 +54,9 @@ public class CraftingLoader {
                         'C', Items.CLOCK,
                         'T', Blocks.TORCH
                 });
+        GameRegistry.addShapelessRecipe(new ResourceLocation("red_dye"),
+                new ResourceLocation("tweakscraft"), new ItemStack(Items.DYE, 1, 1),
+                Ingredient.fromStacks(new ItemStack(BlockLoader.ROSE)));
 
         RegisterSmelting(Items.ROTTEN_FLESH, Items.LEATHER, 0.0F);
     }

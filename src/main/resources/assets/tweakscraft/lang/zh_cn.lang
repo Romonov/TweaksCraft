@@ -5,6 +5,7 @@ item.iron_hook.name=铁钩
 
 # Blocks
 tile.accelerate_torch.name=加速火把
+tile.rose.name=玫瑰
 
 #Tabs
 itemGroup.tweakscraft=微调工艺
