@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "tweakscraft:furnace_iron" },
+        "facing=east":  { "model": "tweakscraft:furnace_iron", "y": 90 },
+        "facing=south": { "model": "tweakscraft:furnace_iron", "y": 180 },
+        "facing=west":  { "model": "tweakscraft:furnace_iron", "y": 270 }
+    }
+}

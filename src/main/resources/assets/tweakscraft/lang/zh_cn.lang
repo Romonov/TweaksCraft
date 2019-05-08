@@ -2,15 +2,23 @@
 
 # Items
 item.iron_hook.name=铁钩
+item.excluder.name=排除器
 
 # Blocks
 tile.accelerate_torch.name=加速火把
 tile.rose.name=玫瑰
+tile.furnace_iron.name=铁质熔炉
+tile.furnace_gold.name=金质熔炉
+tile.furnace_diamond.name=钻石熔炉
+tile.furnace_hell.name=地狱熔炉
 
-#Tabs
+# Tabs
 itemGroup.tweakscraft=微调工艺
 
-#Messages
+# Messages
 message.speed_changed=速度更改为
 message.mode_changed=模式更改为
 message.stopped=停止
+
+# GUI messages
+gui.excluder.title=排除器

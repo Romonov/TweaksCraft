@@ -10,20 +10,23 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 public class ItemLoader
 {
     public static Item IRON_HOOK = new ItemIronHook();
+    public static Item EXCLUDER = new ItemExcluder();
+
 
     public ItemLoader()
     {
         register(IRON_HOOK, "iron_hook");
+        //register(EXCLUDER, "excluder");
     }
 
     public static void registerModel() {
         registerModel(IRON_HOOK);
+        //registerModel(EXCLUDER);
     }
 
     private static void register(Item item, String name)
     {
         ForgeRegistries.ITEMS.register(item.setRegistryName(name).setUnlocalizedName(name).setCreativeTab(CreativeTabLoader.TAB_TWEAKS_CRAFT));
-        TweaksCraft.instance.getLogger().info("[Tweaks Craft] Item " + name + " registered!");
     }
 
     private static void registerModel(Item item)

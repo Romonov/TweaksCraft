@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "tweakscraft:blocks/furnace_iron_top",
+        "front": "tweakscraft:blocks/furnace_iron_front",
+        "side": "tweakscraft:blocks/furnace_iron_side"
+    }
+}

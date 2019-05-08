@@ -3,6 +3,7 @@ package com.romonov.mcmod.tweakscraft.proxy;
 import com.romonov.mcmod.tweakscraft.block.BlockLoader;
 import com.romonov.mcmod.tweakscraft.crafting.CraftingLoader;
 import com.romonov.mcmod.tweakscraft.event.EventLoader;
+import com.romonov.mcmod.tweakscraft.gui.GuiLoader;
 import com.romonov.mcmod.tweakscraft.item.ItemLoader;
 import com.romonov.mcmod.tweakscraft.tileEntity.TileEntityLoader;
 import com.romonov.mcmod.tweakscraft.world.gen.WorldGenLoader;
@@ -23,6 +24,7 @@ public class ProxyCommon {
         new CraftingLoader();
         new EventLoader();
         new WorldGenLoader();
+        new GuiLoader();
     }
 
     public void postInit(FMLPostInitializationEvent event)

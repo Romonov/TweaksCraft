@@ -2,15 +2,23 @@
 
 # Items
 item.iron_hook.name=Iron hook
+item.excluder.name=Excluder
 
 # Blocks
 tile.accelerate_torch.name=Accelerate torch
 tile.rose.name=Rose
+tile.furnace_iron.name=Iron furnace
+tile.furnace_gold.name=Gold furnace
+tile.furnace_diamond.name=Diamond furnace
+tile.furnace_hell.name=Hell furnace
 
-#Tabs
+# Tabs
 itemGroup.tweakscraft=Tweaks craft
 
-#Messages
+# Messages
 message.speed_changed=Speed changed
 message.mode_changed=Mode changed
 message.stopped=Stopped
+
+# GUI messages
+gui.excluder.title=Excluder
