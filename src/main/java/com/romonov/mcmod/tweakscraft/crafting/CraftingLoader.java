@@ -58,7 +58,7 @@ public class CraftingLoader {
                 new ResourceLocation("tweakscraft"), new ItemStack(Items.DYE, 1, 1),
                 Ingredient.fromStacks(new ItemStack(BlockLoader.ROSE)));
         GameRegistry.addShapedRecipe(new ResourceLocation("excluder"),
-                new ResourceLocation("tweakscraft"), new ItemStack(BlockLoader.ACCELERATE_TORCH),
+                new ResourceLocation("tweakscraft"), new ItemStack(ItemLoader.EXCLUDER),
                 new Object[] {
                         "IGI",
                         "IEI",
