@@ -12,6 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class ItemExcluder extends Item {
+
     public ItemExcluder() {
         super();
     }

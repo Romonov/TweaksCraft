@@ -1,8 +1,6 @@
 package com.romonov.mcmod.tweakscraft.gui.client;
 
 import com.romonov.mcmod.tweakscraft.gui.container.ExcluderContainer;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.ResourceLocation;
@@ -11,8 +9,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class ExcluderGuiContainer extends GuiContainer {
-    private static final ResourceLocation TEXTURE_ACTIVE =
-            new ResourceLocation("tweakscraft:textures/gui/gui_excluder_active.png");
+    private static final ResourceLocation TEXTURE =
+            new ResourceLocation("tweakscraft:textures/gui/gui_excluder.png");
 
     public ExcluderGuiContainer(ExcluderContainer container) {
         super(container);
@@ -35,7 +33,7 @@ public class ExcluderGuiContainer extends GuiContainer {
     @Override
     protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
         this.drawDefaultBackground();
-        this.mc.getTextureManager().bindTexture(TEXTURE_ACTIVE);
+        this.mc.getTextureManager().bindTexture(TEXTURE);
         int offsetX = (this.width - this.xSize) / 2;
         int offsetY = (this.height - this.ySize) / 2;
         this.drawTexturedModalRect(offsetX, offsetY, 0, 0, this.xSize, this.ySize);

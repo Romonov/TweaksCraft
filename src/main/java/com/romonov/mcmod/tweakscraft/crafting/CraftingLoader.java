@@ -57,7 +57,6 @@ public class CraftingLoader {
         GameRegistry.addShapelessRecipe(new ResourceLocation("red_dye"),
                 new ResourceLocation("tweakscraft"), new ItemStack(Items.DYE, 1, 1),
                 Ingredient.fromStacks(new ItemStack(BlockLoader.ROSE)));
-        /*
         GameRegistry.addShapedRecipe(new ResourceLocation("excluder"),
                 new ResourceLocation("tweakscraft"), new ItemStack(BlockLoader.ACCELERATE_TORCH),
                 new Object[] {
@@ -69,7 +68,7 @@ public class CraftingLoader {
                         'E', Items.ENDER_PEARL,
                         'R', Items.REDSTONE
                 });
-                */
+
 
         RegisterSmelting(Items.ROTTEN_FLESH, Items.LEATHER, 0.0F);
     }

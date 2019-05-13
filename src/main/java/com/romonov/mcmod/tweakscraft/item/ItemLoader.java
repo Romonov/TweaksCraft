@@ -16,12 +16,12 @@ public class ItemLoader
     public ItemLoader()
     {
         register(IRON_HOOK, "iron_hook");
-        //register(EXCLUDER, "excluder");
+        register(EXCLUDER, "excluder");
     }
 
     public static void registerModel() {
         registerModel(IRON_HOOK);
-        //registerModel(EXCLUDER);
+        registerModel(EXCLUDER);
     }
 
     private static void register(Item item, String name)
